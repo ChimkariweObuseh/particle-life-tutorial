@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <div class="title">
+  <h1>PARTICLE LIFE</h1>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  
+  <div class="section">
+    <p class="paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      Welcome to my particle life simulator tutorial! This simulator allows you to observe the emergence of evolution through simple rules governing the interactions of different particle types. At its core, the simulator focuses on modelling cellular organisms as groups of particles that move, eat, reproduce, and die depending on their energy levels. 
+
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      Let's start with an overview of the main components that bring this simulated world to life. The simulator space contains 5-10 "Cells" at any given time. Each Cell is made up of 5 different particle types that work together in harmony. Type 1 particles, seperate from the 5 particles of a Cell, represent units of food that float around for the Cells to consume. Type 2 particles are the "eaters" - they seek out and absorb nearby food particles to gain energy for their Cell.
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      The other 3 particle types - types 3, 4, 5 and 6 - are responsible for movement. Together, they push and pull on each other following simple attraction and repulsion rules in order to move the Cell around the space in search of nourishment. By varying the ratios and positioning of these particle types, different Cells can evolve diverse movement strategies. Some may learn to swim smoothly while others may twitch or tumble unpredictably.
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      All particles have a radius of about 10 pixels and are visually distinguished by their colour. Cells are not particularly easy to see, as after a while the Cells can learn to expand. You can press L to draw lines between the Cells' particles. You can also press D to toggle the simulation being displayed, this can reduce lag and cause the simulation to run faster. Food particles are red. The eater particles are orange (or white depending on the browser/device) while the movement particles come in varying colours, completely depending on the browser.
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      At the core of this system is a basic energy cycle. Eater particles within a Cell absorb nearby food particles to gain energy. If a Cell's total energy drops to 0, its particles will disappear. However, if energy climbs to a certain point, the Cell will create a copy of itself in a random area, as a form of reproduction.
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      During reproduction, the original Cell will replicate its particles into a new Cell and get a random position in the simulation to appear. This introduces the possibility of small mutations that could impact things like movement patterns or energy absorption rates in the offspring. Over many generations of replication, mutation, and natural selection, the Cells can evolve increasingly complex and optimised behaviours for surviving and reproducing in their environment.
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      Some Cells may learn to swarm tightly together to more efficiently collect dispersed food sources. Others may branch out long, grasping appendages optimised for hoarding large food windfalls. Some may even evolve the ability of teamwork, where certain Cells merge and provide food and transport for each other (this is true!). 
+    </p>
+  </div>
+  <div class="section">
+    <p class= "paragraph reveal-type" data-bg-color="#f2f2f2" data-fg-color="#fff">
+      I hope this overview has provided a useful introduction to the basic mechanics and evolutionary potentials of the particle life simulator. Feel free to experiment with different parameters and food distributions to observe how the Cell populations may adapt in diverse and unexpected ways.
+    </p>
+  </div>
+  <br/>
+  <br/>
+
+  <a href="https://chimkariweobuseh.github.io/particle-life" target="blank"><button class="playButton">TRY NOW!</button></a>
+  <br/>
+  <br/>
+
+  
+   
+  <script src="script.js"></script>
+</body>
+
+</html>
